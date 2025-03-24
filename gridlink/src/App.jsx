@@ -8,19 +8,19 @@ import NavBar from "./assets/NavBar.jsx";
 const App = () => {
     let component
     switch (window.location.pathname) {
-        case '/home':
+        case '/stemscholars/home':
             component = <Home/>
             break
-        case '/':
+        case '/stemscholars/':
             component = <Home/>
             break
-        case '/information':
+        case '/stemscholars/information':
             component = <Information/>
             break
-        case '/submitForm':
+        case '/stemscholars/submitForm':
             component = <SubmitForm/>
             break
-        case '/contact':
+        case '/stemscholars/contact':
             component = <Contact/>
             break
     }
