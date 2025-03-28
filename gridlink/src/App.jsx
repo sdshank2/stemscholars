@@ -11,9 +11,6 @@ const App = () => {
         case '/stemscholars':
             component = <Home/>
             break
-        case '/stemscholars/':
-            component = <Home/>
-            break
         case '/stemscholars/information':
             component = <Information/>
             break

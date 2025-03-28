@@ -1,5 +1,7 @@
 import React from "react";
 
+//Check this document for UI suggestions: https://docs.google.com/document/d/1NGgPjBVcXR7AVJvfigivQgENnvRRJ7YXOZdua_Yhd4I/edit?tab=t.0
+
 export default function Information() {
     return(
         <>
@@ -8,7 +10,7 @@ export default function Information() {
                 <h1 className="text-white font-semibold text-4xl text-center px-4 sm:px-6 md:px-8 relative">What is the Interconnection Queue?</h1>
             </div>
             <div>
-                <h3 className="text-black dark:text-white">test</h3>
+                <h3 className="bg-gray-100 dark:bg-gray-800 text-black dark:text-white">test</h3>
             </div>
         </>
     )
